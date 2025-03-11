@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the model once at startup
-with open('.venv\\best_model.pkl', 'rb') as file:
+with open('best_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Streamlit UI
